@@ -1,12 +1,23 @@
-# Backend Evaluations Api
-Backend creado en NodeJS, API REST con los siguientes requerimientos:
+# **Evaluations360-API** 🚀  
 
-Endpoints para el registro e inicio de usiarios, implementando JWT para la autenticacion y manejo de roles correspondiente como Admin, Manager, Employe.
+API REST para la gestión de **evaluaciones 360°**, desarrollada con **Node.js, Express y MongoDB**.  
+Cuenta con autenticación basada en **JWT y roles de usuario**, garantizando seguridad y control de acceso.  
 
-Endpoints para el manejor de empleados y evaluaciones.
+## 📌 Características  
+- ✅ **CRUD de Evaluaciones 360°** para empleados.  
+- ✅ **Autenticación con JWT** para sesiones seguras.  
+- ✅ **Roles de usuario (Admin, Manager, User)** con permisos personalizados.  
+- ✅ **Base de datos en MongoDB** con Mongoose.  
+- ✅ **Seguridad con Helmet, CORS y validaciones en middleware**.  
 
-Creacion de modelos de datos para los usuarios, empleados y evaluaciones.
+---
 
-Implementacion de middleware para el manejo de errores y validacion de datos.
+## 🛠️ **Tecnologías Utilizadas**  
+- **Backend:** Node.js + Express.js  
+- **Base de Datos:** MongoDB (Mongoose ODM)  
+- **Autenticación:** JSON Web Tokens (JWT)  
+- **Seguridad:** Helmet, CORS, bcryptjs  
+- **Compilación:** Babel  
+- **Logging:** Morgan  
 
-Base de datos: MongoDB
+---
